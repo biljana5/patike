@@ -1,0 +1,108 @@
+*
+{
+margin:0;
+padding:0;
+}
+#page-container {
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(slike/slika1.jpg);
+    position: relative;
+    min-height: 100vh;
+    background-size:cover;
+background-position:center;
+  }
+  
+  #content-wrap {
+    padding-bottom: 2.5rem;    
+  }
+
+  
+ul
+{
+   margin-top: 30px;
+float: right;
+list-style: none;
+
+}
+
+li
+{
+display: inline-block;
+padding: 10px;
+}
+
+li a
+{
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+li a:hover
+{
+    border-bottom: 1px solid white;
+}
+
+
+.ulogujse
+{
+    /*
+margin-top: 200px;
+margin-left: 0px;*/
+background-color: transparent;
+color: white;
+font-family: "Roboto", sans-serif;
+font-size: 15px;
+padding: 15px 32px;
+border: 1px solid white;
+
+}
+.ulogujse:hover
+{
+    background-color: #e8662a;
+}
+.registrujse
+{/*
+margin-top: 250px;
+margin-right: 10px;*/
+background-color: transparent;
+color: white;
+font-family: "Roboto", sans-serif;
+font-size: 15px;
+padding: 15px 32px;
+border: 1px solid white;
+
+}
+.registrujse:hover
+{
+    background-color: #e8662a;
+    
+}
+
+
+
+.footer
+{
+background:darkorange;
+    
+    height: 200px;
+}
+.image
+{
+height: 50px;
+width: 50px;
+align-items: center;
+}
+
+.image:hover
+{
+    background-color: white;
+}
+.social-media
+{
+
+float: left;
+margin-left: 380px;
+
+}

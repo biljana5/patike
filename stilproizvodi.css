@@ -1,0 +1,122 @@
+.rowpage{
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(slike/slika1.jpg);
+    position: relative;
+    min-height: 100vh;
+    background-size:cover;
+    background-position:center;
+  }
+
+li{
+
+padding: 10px;
+
+  }
+  .sidebar1 {
+   /* background: #F17153;
+   
+    background: -webkit-linear-gradient(#F17153, #F58D63, #f1ab53);
+  */
+  background-color: transparent;
+  
+    padding: 0px;
+    min-height: 100%;
+}
+.list {
+    color: #fff;
+    list-style: none;
+    padding-left: 0px;
+}
+.list::first-line {
+    color: rgba(255, 255, 255, 0.5);
+}
+.list> li, h5 {
+    padding: 5px 0px 5px 40px;
+}
+.list>li:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+   /* border-left: 5px solid white;
+    color: white;
+    font-weight: bolder;
+    padding-left: 35px;*/
+
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.2);
+}.main-content{
+text-align:center;
+}
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.2);
+  }
+  
+  .sidebar-nav li a:active, .sidebar-nav li a:focus {
+    text-decoration: none;
+  }
+
+  .vl {
+   border-left: 50px solid transparent;
+    height: 500px;
+    background-color: transparent;
+  }
+
+  .main-content{
+/*
+    background: #F17153;
+   
+    background: -webkit-linear-gradient(#F17153, #F58D63, #f1ab53);
+  */
+
+  background-color: transparent;
+  }
+
+
+
+
+
+
+
+
+  
+
+.social-media
+{
+   margin-top: 30px;
+float: right;
+list-style: none;
+}
+
+.mreze
+{
+display: inline-block;
+padding: 10px;
+}
+
+
+
+.image
+{
+height: 50px;
+width: 50px;
+align-items: center;
+}
+
+.social-media
+{
+float: left;
+margin-left: 450px;
+}
+.footer{
+ background-color:white;
+ height: 200px;
+}
+li{  
+    padding:2px;  
+}
+
+
+h1{
+
+  background-color: transparent;
+}
